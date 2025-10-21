@@ -1,0 +1,32 @@
+| Data Type               | Mutable?    | Explanation                                     |
+| ----------------------- | ----------- | ----------------------------------------------  |
+|    str    (String)      |   Immutable | Once created, you can’t change it               |
+|    bool    (Boolean)    |   Immutable | `True` / `False` values can’t change            |
+|    list                 |   Mutable   | You can add, remove, or modify items            |
+|    tuple                |   Immutable | Once created, it can’t be changed               |
+|    set                  |   Mutable   | You can add or remove elements                  |
+|    dict    (Dictionary) |   Mutable   | You can add, update, or delete key-value pairs  |
+
+--> Python Collections (Arrays) <--
+There are four collection data types in the Python programming language:
+
+List is a collection which is ordered and changeable. Allows duplicate members.
+Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+--> IMPORTANT <--
+When choosing a collection type, it is useful to understand the properties of that type. Choosing the right type for a particular data set could mean retention of meaning, and, it could mean an increase in efficiency or security.
+
+--> Python Conditions and If statements <--
+Python supports the usual logical conditions from mathematics:
+
+Equals: a == b
+Not Equals: a != b
+Less than: a < b
+Less than or equal to: a <= b
+Greater than: a > b
+Greater than or equal to: a >= b
+These conditions can be used in several ways, most commonly in "if statements" and loops.
+
+An "if statement" is written by using the if keyword.
