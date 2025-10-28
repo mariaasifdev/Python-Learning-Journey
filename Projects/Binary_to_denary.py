@@ -68,8 +68,8 @@ else:
         # Divide by 2 for next iteration
         denary = denary // 2
 
-# Remove space and display output
-binary = binary.strip()
+# adding space and display output
+binary = " ".join(binary)
 print(f"Denary {original} = Binary {binary}")
 
 
